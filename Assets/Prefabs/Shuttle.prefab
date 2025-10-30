@@ -526,6 +526,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06eedc7d6560aa74f9317b3ac84f627e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 497236243313830776}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06eedc7d6560aa74f9317b3ac84f627e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7449685608431760706}
   m_SourcePrefab: {fileID: 100100000, guid: 06eedc7d6560aa74f9317b3ac84f627e, type: 3}
 --- !u!4 &6121946502498716080 stripped
 Transform:
@@ -587,3 +590,30 @@ CapsuleCollider:
   m_Height: 0.0016519121
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0.0012997625}
+--- !u!114 &7449685608431760706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6899045429956170506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2f1c31786fd204685f3256558d79c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shuttleLand:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1564564057629812131, guid: 7e41cb55cb05cd441a42ce16cfd843f7, type: 3}
+        m_TargetAssemblyTypeName: EnemyScript, Assembly-CSharp
+        m_MethodName: MoveToShuttle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1

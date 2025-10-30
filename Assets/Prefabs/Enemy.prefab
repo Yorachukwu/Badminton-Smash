@@ -8,9 +8,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1335198062002677570, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9ace25b7fc74ce447be2412d80d797e6, type: 2}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalRotation.x
@@ -30,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalRotation.z
@@ -42,12 +46,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 1842164855038159469, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2609971041081587374, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: becf768a3bb928f43a48101e3ccfcda1, type: 2}
     - target: {fileID: 3324822118527218140, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -56,8 +64,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8240509565833704236, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720879991059394903, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Visual
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8240509565833704236, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1564564057629812131}
   m_SourcePrefab: {fileID: 100100000, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+--- !u!95 &800149023911003397 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2609971041081587374, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+  m_PrefabInstance: {fileID: 3396498728632071083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6737070939098824839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8240509565833704236, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+  m_PrefabInstance: {fileID: 3396498728632071083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1564564057629812131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6737070939098824839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05cd847da7fd3b041b36f597012023ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyAnimator: {fileID: 800149023911003397}
