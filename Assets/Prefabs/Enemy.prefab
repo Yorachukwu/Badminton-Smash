@@ -85,6 +85,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2609971041081587374, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
   m_PrefabInstance: {fileID: 3396498728632071083}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2196632393799054614 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 3557500792056055485, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
+  m_PrefabInstance: {fileID: 3396498728632071083}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6737070939098824839 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8240509565833704236, guid: ecca03b7f92906b4a98d364ba8875dd7, type: 3}
@@ -103,3 +108,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAnimator: {fileID: 800149023911003397}
+  hitRegion: {fileID: 2196632393799054614}
