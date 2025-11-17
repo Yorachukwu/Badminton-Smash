@@ -124,6 +124,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8c500602-caaa-4b6d-91a8-f96f6ff87af1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strike",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1d0c9eb7-a55a-427f-ad31-ce2189ca41d5",
                     "path": "<Keyboard>/escape",
                     "interactions": "",

@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: ee0284f65166a4a43802a8544e6aa2d9
+guid: 3c71c184adba1e04a891c426ebfb0711
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Court
-    second: {fileID: 2100000, guid: 472126fd6aa384b41bfdca0bb313bcd9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Plane Material
-    second: {fileID: 2100000, guid: 7b015101ccbc8e94da206162f797cb84, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pole Material
-    second: {fileID: 2100000, guid: c5143f1b29cf7de47ad4481f159e7da3, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
