@@ -3,7 +3,107 @@ guid: 744d674434a47594eaa7f46f84693fd0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Court
+    second: {fileID: 2100000, guid: f0c7349c06510834d9647b8976c3f9b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 47359fbe252135a488a17fbc54417a46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 54d0a8a2b13dfba41b68edd24f4036f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 562a0b34c53b6fc448c3f865d2ed0d0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: fca8cc0152a451a49975ac571fa58903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: c7743899b5513c14caee9c1bd2c6dd23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 0a3f600d609b31d4899635e26f37b55b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 3d598e74e8790ab4fa7ff464640ef034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 29c561d737120134ca0d25ea0a62e5dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 4fbbad90f2c48964b9747f737b7a1db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Floor
+    second: {fileID: 2100000, guid: 5aaba027e4b12d84793c259f2e0acd15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light pole
+    second: {fileID: 2100000, guid: caf19884a2b78d643b1ee5cf83e4d779, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal046B_1K-JPG_Color
+    second: {fileID: 2800000, guid: 48cf87d9487ed844eb4c40550221e077, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal046B_1K-JPG_Metalness
+    second: {fileID: 2800000, guid: 6e18264090404904b95f1d835e7bfb92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal046B_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: 8847010f6d035da41b4615ec6558ef95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal046B_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: 2b61ec53f12ffe541a7924ab44184a18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Overhead View of Badminton Court
+    second: {fileID: 2800000, guid: 96da5cad9a3aa20458fe05672ab0a403, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood051_2K-JPG_Color
+    second: {fileID: 2800000, guid: a140fd52d7c9a90478ffc9da33f5d849, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood051_2K-JPG_NormalGL
+    second: {fileID: 2800000, guid: 6915a8b06f5a4ee47a78c98eaaec293d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood051_2K-JPG_Roughness
+    second: {fileID: 2800000, guid: 23e1d5ec724d3d1429446b622bed1c8b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
